@@ -1,0 +1,19 @@
+<section class="center">
+<h1 align="center">Testare buton JavaScript</h1>
+<button  class="button2"  onclick="myFunction()">NU APĂSA!!!</button>
+
+<p align="center" id="textul"></p>
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Alege un buton!")) {
+    txt = "Ai apăsat OK!";
+  } else {
+    txt = "Ai apăsat Cancel!";
+  }
+  document.getElementById("textul").innerHTML = txt;
+}
+</script>
+
+</body>
+</section>

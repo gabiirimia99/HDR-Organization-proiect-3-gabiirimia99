@@ -1,0 +1,98 @@
+<form action="/rezultat-chestionar", method="POST">
+    <p><%= intrebari[0].intrebare %></p>
+        <div class="imagine1"><img src="https://i.gifer.com/4yWB.gif" width="860" height="720"/></div>
+        <br>
+    <div class="radio-toolbar" align=center>
+        <input type="radio" id="r11" name="ras" value="0">
+        <label for="r11"><%= intrebari[0].variante[0]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r12" name="ras" value="1">
+        <label for="r12"><%= intrebari[0].variante[1]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r13" name="ras" value="2">
+        <label for="r13"><%= intrebari[0].variante[2]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r14" name="ras" value="3">
+        <label for="r14"><%= intrebari[0].variante[3]%></label> 
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <p><%= intrebari[1].intrebare %></p>
+    <br>
+    <div class="radio-toolbar" align=center>
+        <input type="radio" id="r21" name="ras2" value="0">
+        <label for="r21"><%= intrebari[1].variante[0]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r22" name="ras2" value="1">
+        <label for="r22"><%= intrebari[1].variante[1]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r23" name="ras2" value="2">
+        <label for="r23"><%= intrebari[1].variante[2]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r24" name="ras2" value="3">
+        <label for="r24"><%= intrebari[1].variante[3]%></label> 
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <p><%= intrebari[2].intrebare %></p>
+    <div class="imagine1"><img src="https://33.media.tumblr.com/30a1b2a6eafa69a080dfe5fabd7d2c82/tumblr_ni8kc36cBm1u7r2sso1_400.gif"  width="860" height="720"/></div>
+    <div class="radio-toolbar" align=center>
+        <input type="radio" id="r31" name="ras3" value="0">
+        <label for="r31"><%= intrebari[2].variante[0]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r32" name="ras3" value="1">
+        <label for="r32"><%= intrebari[2].variante[1]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r33" name="ras3" value="2">
+        <label for="r33"><%= intrebari[2].variante[2]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r34" name="ras3" value="3">
+        <label for="r34"><%= intrebari[2].variante[3]%></label> 
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <p><%= intrebari[3].intrebare %></p>
+    <div class="radio-toolbar" align=center>
+        <input type="radio" id="r41" name="ras4" value="0">
+        <label for="r41"><%= intrebari[3].variante[0]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r42" name="ras4" value="1" >
+        <label for="r42"><%= intrebari[3].variante[1]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r43" name="ras4" value="2">
+        <label for="r43"><%= intrebari[3].variante[2]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r44" name="ras4" value="3">
+        <label for="r44"><%= intrebari[3].variante[3]%></label> 
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <p><%= intrebari[4].intrebare %></p>
+    <div class="radio-toolbar" align=center>
+        <input type="radio" id="r51" name="ras5" value="0">
+        <label for="r51"><%= intrebari[4].variante[0]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r52" name="ras5" value="1">
+        <label for="r52"><%= intrebari[4].variante[1]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r53" name="ras5" value="2">
+        <label for="r53"><%= intrebari[4].variante[2]%></label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="r54" name="ras5" value="3">
+        <label for="r54"><%= intrebari[4].variante[3]%></label> 
+    </div>
+    <br>
+    <hr>
+    <div class="verific"><button type="submit">Verifica</button></div>
+</form>
